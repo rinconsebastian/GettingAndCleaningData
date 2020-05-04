@@ -79,7 +79,7 @@ records  <- records %>% mutate(activity= factor(activity, activity_numbers, acti
 #5) CREATING SUMMARY FOR STEP 5
 
 records_summarise <- records %>%    
-                  group_by(signal,variable, activity, subject) %>%  #Group the dataset  by signal,variable, activity, subject
+                  group_by(subject, activity,signal,variable ) %>%  #Group the dataset  by signal,variable, activity, subject
                   summarise(average = mean(value))                  #summarise calculating the mean of the value colum for each signal,variable, activity, subject
 
 
