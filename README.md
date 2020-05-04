@@ -16,7 +16,7 @@ VERSION: 1.0<br />
 ## Objective
 Take the dataq from the http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones project an tidy the data using a R script, finally creta a summarise dataset and store this in a txt File.
 
-## Sorce data
+## Source data
 unzip the http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones file in the **data** folder
 
 ## Process to tidy the dataset
